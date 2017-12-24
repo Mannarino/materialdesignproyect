@@ -1,0 +1,145 @@
+.cf-color{
+	background-color: black;
+}
+
+.nav-link-suo{
+	font-weight: 700px;
+	font-size: 16px;
+}
+.nav-link-suo:hover{
+	border-bottom: solid 4px #8bc34a;
+	font-weight: 700px;
+	font-size: 16px;
+}
+.mdl-layout__drawer{
+	border-right: 0px;
+}
+
+
+.mdl-layout__drawer .mdl-layout-title{
+	height: 160px;
+	background-color: black;
+	color: white;
+	line-height: 160px;
+}
+
+.page-content{
+	background: url('reac.jpg') center no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+.cf-slogan{
+	font-size: 72px;
+	padding-top: 200px;
+	color: white;
+	font-weight: 300;
+	line-height: 100px;
+	font-family: 'Roboto', sans-serif;
+}
+.cf-paseo{
+	color: #767777;
+	font-size: 36px;
+	padding-top: 40px;
+}
+.demo-card-square{
+	
+	height: 600px;
+	margin-bottom: 32px;
+	
+}
+.mdl-card__title {
+	height: 200px;
+}
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('decorar-oficina-moderna.jpg') bottom right 15% no-repeat #46B6AC;
+}
+.talleres{
+	margin-top: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+	flex-wrap: wrap;
+
+	
+}
+.cf-informacion{
+	margin-top: 60px;
+	background: url('foto-dos.jpg') center top no-repeat;
+	height:520px;
+
+}
+.cf-informacion-bg{
+	
+	width: 100%;
+	background-color: #1b5e20;
+}
+.cf-informacion-text{
+	color: white;
+	margin-left: 25%;
+	max-width: 800px;
+	padding: 24px;
+	text-align: left;
+}
+.cf-informacion-text>p{
+	padding-top: 10px;
+}
+.cf-button{
+	background-color: #b71c1c;
+	color: white;
+}
+
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+  display: block!important;
+  margin: 30px;
+  border-radius: 5px;
+}
+.demo-card-wide > .mdl-card__title-dos {
+  color: #fff;
+  height: 176px;
+  background: url('evento2.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__title-uno {
+  color: #fff;
+  height: 176px;
+  background: url('welcome-card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__title-tres {
+  color: #fff;
+  height: 176px;
+  background: url('evento3.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.cf-eventos{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.cf-title{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+@media (max-width: 997px) {
+  .talleres {
+   justify-content: center;
+  }
+  .demo-card-square{
+	
+	margin: 15px;
+	margin-bottom: 32px;
+	
+}
+}
